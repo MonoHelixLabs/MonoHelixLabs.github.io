@@ -1,0 +1,196 @@
+body {
+  padding-top: 50px;
+  font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-block {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: #ffffff;
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.about-block {
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: inherit;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.usecase1-block {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: #000000;
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.usecase2-block {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    padding-bottom: 0px;
+    color: #000000;
+    background-color: #EEE;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.usecase3-block {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    color: #000000;
+    background-color: #EEE;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.steps-block {
+	overflow: hidden;
+	position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: inherit;
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.pricing-block {
+	overflow: hidden;
+	position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: inherit;
+    background-color: #EEE;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.aboutus-block {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: #000000;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.contact-block {
+	overflow: hidden;
+	position: relative;
+    width: 100%;
+    padding: 60px 30px;
+    color: #ffffff;
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.navstyle {
+	float: right !important;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: #333;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #333;
+}
+
+.grey-font {
+	color: #868686;
+}
+
+.light-grey-font {
+	color: #DCDCDC;
+}
+
+.media {
+    background: #fff;
+    border-bottom: solid 1px #c7c9c8;
+
+}
+
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.btn:after, .card, .fbtn-text {
+    border-radius: 2px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.card-inner {
+    margin: 24px 16px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bllabel {
+    background: black;
+    color: white
+}
