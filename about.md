@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-MonoHelix Labs is a small company working within the area of software and hardware development, data analysis, consulting and publishing.
+MonoHelix Labs is a small company working within the area of software development, IoT, data analysis, consulting and publishing.
 
 This blog is mainly authored by people associated with MonoHelix Labs as well as invited guests that write on similar topics.
 

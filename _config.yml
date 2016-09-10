@@ -9,7 +9,7 @@
 title: MonoHelix Labs
 email: contact@monohelix.com
 description: > # this means to ignore newlines until "baseurl:"
-  MonoHelix Labs Blog Website.
+  Blog posts from MonoHelix Labs. We try out new technologies, geek around, have fun, and share our knowledge.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://labs.monohelix.com" # the base hostname & protocol for your site
 twitter_username: monohelixlabs
