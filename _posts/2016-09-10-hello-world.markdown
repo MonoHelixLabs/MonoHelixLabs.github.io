@@ -8,7 +8,7 @@ author: paula
 
 Today we have registered MonoHelix Labs as a company and we can start operating! We have also transfered the few articles that we had on MonoHelix.com webpage to MonoHelix Labs.
 
-And we have a new logo: it's black and white, with some robin egg blue:
+And we have a new logo: it's black and white, with some <a href="https://en.wikipedia.org/wiki/Robin_egg_blue" target="_blank">robin egg blue</a>:
 
 ![monohelixlabs](/images/monohelixlabs.png)
 
