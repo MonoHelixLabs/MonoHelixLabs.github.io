@@ -7,11 +7,11 @@
 
 # Site settings
 title: MonoHelix Labs
-email: contact@monohelix.com
+email: contact@monohelixlabs.com
 description: > # this means to ignore newlines until "baseurl:"
   Blog posts from MonoHelix Labs. We try out new technologies, geek around, have fun, and share our knowledge.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://labs.monohelix.com" # the base hostname & protocol for your site
+url: "http://www.monohelixlabs.com" # the base hostname & protocol for your site
 twitter_username: monohelixlabs
 github_username:  monohelixlabs
 
