@@ -14,16 +14,16 @@ When looking at alternatives for measuring weight, we looked over load cells. Th
 
 Still, it was not clear whether we need four load cells to be able to measure weight or if there is any way one can use only one load cell, especially if our target weight range is under 5 kg. At this point, we stepped into our kitchen to investigate!
 
-![kitchen_scale_00](/images/kitchen_scale_00.JPG)
+![kitchen_scale_00](/images/kitchen_scale_00.jpg)
 This is a standard kitchen scale (bought from local store for around 22$) and handles up to 5 kg.
 
-![kitchen_scale_01](/images/kitchen_scale_01.JPG)
+![kitchen_scale_01](/images/kitchen_scale_01.jpg)
 And indeed, this scale uses 4 load cells. One can buy such load cells for somewhere around 5$ per piece (more or less, depending on sensor range and store). And we can only assume that the producer of this scale must have gotten a better deal.
 
 But does this mean that all scales use 4 load cells? We ordered a smaller scale from AliExpress to investigate.
 
-![kitchen_scale_02](/images/kitchen_scale_02.JPG)
+![kitchen_scale_02](/images/kitchen_scale_02.jpg)
 This is a scale that handles up to 1 kg (bought for around 4$ from AliExpress including shipping).
 
-![kitchen_scale_03](/images/kitchen_scale_03.JPG)
+![kitchen_scale_03](/images/kitchen_scale_03.jpg)
 And inside, one load cell bar only! Mystery solved.
