@@ -4,6 +4,7 @@ title:  "Inside a kitchen weight scale"
 date:   2016-10-17 19:25:00 +0100
 categories: kitchen scale weight
 author: paula
+permalink: /inside-kitchen-weight-scale.html
 ---
 
 Ever wondered what is inside a kitchen scale? Does it use any of the sensors that you can buy from your favorite electronics store?
