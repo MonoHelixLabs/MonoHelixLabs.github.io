@@ -4,6 +4,7 @@ title:  "Hello World!"
 date:   2016-09-10 16:25:11 +0100
 categories: about update
 author: paula
+permalink: /hello-world.html
 ---
 
 Today we have registered MonoHelix Labs as a company and we can start operating! We have also transfered the few articles that we had on MonoHelix.com webpage to MonoHelix Labs.

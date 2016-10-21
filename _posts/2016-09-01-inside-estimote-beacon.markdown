@@ -4,6 +4,7 @@ title:  "Inside an Estimote Location Beacon"
 date:   2016-09-01 20:00:00 +0100
 categories: beacons nearables iot
 author: paula
+permalink: /inside-estimote-beacon.html
 ---
 
 Estimote Location Beacons are small wireless sensors that talk Bluetooth Low Energy (BLE), have motion, temperature, ambient light and magnetometer sensors integrated, and also have a GPIO connector. 

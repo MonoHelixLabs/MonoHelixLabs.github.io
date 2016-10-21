@@ -4,6 +4,7 @@ title:  "Teardown of 360º camera Ricoh Theta S"
 date:   2016-02-21 19:43:00 +0100
 categories: vr camera
 author: paula
+permalink: /teardown-ricoh-theta-s.html
 ---
 
 Ricoh Theta S is a camera with two lenses that allows you to capture spherical images and videos. It's very slim and easy to use, but accidents can happen. We dropped ours by mistake, which gave us a reason to take a look at what's inside!
