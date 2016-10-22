@@ -7,7 +7,7 @@ author: paula
 permalink: /datafeeds-app.html
 ---
 
-We are happy to announce that we have just released our first app in the App Store! It is available both on iOS and tvOS and it's called DataFeeds. It's an app that allows you to monitor your feeds from the Adafruit IO service.
+We are happy to announce that we have just released our first app in the App Store! It's free, available both on iOS and tvOS and it's called DataFeeds. It's an app that allows you to monitor your feeds from the Adafruit IO service.
 
 Together with the release of the app we have also put in place a dedicated website, <a href="http://datafeeds.monohelixlabs.com" target="_blank">datafeeds.monohelixlabs.com</a>, and published a demo video on YouTube to give everyone a taste of what the app can do. 
 
