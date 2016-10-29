@@ -13,7 +13,7 @@ Wouldn't it be nice to know how much milk you have left in the fridge while you 
 
 In this blog post we detail how we came to the final setup below and what we have learned from  building this project. 
 
-![fsr_scale_fritzing](/images/fsr_scale_fritzing.png)
+![fsr_scale_fritzing](/images/FSR_scale_fritzing.png)
 
 We included pressure sensors to detect the milk cartons and temperature sensors to read the temperature inside the fridge. 
 
@@ -52,27 +52,27 @@ We started working on a prototype back in May 2016 and kept a change log with th
 
 - <i><b>30-MAY</b>: Used FSR sensors with an Arduino to measure weight of a milk carton; ordered a few more sensors so we can measure all the cartons on the fridge door shelf.</i>
 
-![fsr_scale_000](/images/fsr_scale_000.jpg)
+![fsr_scale_000](/images/FSR_scale_000.jpg)
 
 We started using an FSR (force sensing resistor) for measuring weight even though we knew that these are not able to measure precisely. We knew that the alternative would be load cells, however, the FSR looked much easier to get started with, and had a nice thin profile which we thought would be more suited for the project.
 
-![fsr_scale_0000](/images/fsr_scale_0000.jpg)
+![fsr_scale_0000](/images/FSR_scale_0000.jpg)
 
 - <i><b>3-JUN</b>: Arduino now uses two FSR sensors to measure weight of 2 milk cartons; looking for what materials could be used for the project, currently using a plastic sheet cut out from a plastic box.</i>
 
-![fsr_scale_00](/images/fsr_scale_00.jpg)
+![fsr_scale_00](/images/FSR_scale_00.jpg)
 
 The surface of the FSR sensor is smaller than the milk carton, which means that when we put the milk on the FSR the milk carton leaned outside the margins of the FSR, which means that it would 'cheat' with the weight. We improvised by putting some small square pads on top of the FSR which would raise the height of the sensing area so that the entire weights of the milk carton would fall on the sensor.
 
 - <i><b>4-JUN</b>: Added temperature sensor on Arduino in addition to the 2 weight sensors.</i>
 
-![fsr_scale_01](/images/fsr_scale_01.png)
+![fsr_scale_01](/images/FSR_scale_01.png)
 
 In parallel with building the milk scale we were also working on adding some temperature sensors to the module. The temperature sensor can be used for example to identify whether the fridge door is left open so that a notification is being sent, but in the end, as you will see, we got a bit carried away and added more than one temperature sensors in the idea of validating that the temperature inside the fridge is different between shelves.
 
 - <i><b>25-JUL</b>: Feather Huzzah ESP8266 with 4051 MUX reading temperature and from 2 FSRs, but sensitivity is not so good from FSR (can only detect that there is something on or not, but not how much).</i>
 
-![fsr_scale_02](/images/fsr_scale_02.jpg)
+![fsr_scale_02](/images/FSR_scale_02.jpg)
 
 The Feather Huzzah is a small development board with built-in Wi-Fi, which is why we chose it for this IoT prototype. However, the FSRs are analog and the Feather Huzzah only has 1 analog pin, which means that if we want to use several analog sensors with one Huzzah we need a multiplexer. We used the 4051 MUX.
 
@@ -84,17 +84,17 @@ Check out our Pinterest board with inspiration for the milk scale: <a href="http
 
 - <i><b>30-JUL</b>: Measuring with the multimeter on the FSR we get more sensitive values which show that we could kind of estimate if there is no milk, some milk, or enough milk. Debating whether to use load cell sensors instead, which give more accurate measurements - these are used in weight scales - thinking also of buying a kitchen scale and looking inside. Did some testing using different resistors to scale the voltage and with different milk cartons (empty, full, full minus one glass of milk), and found some resistors that give us good values. Started drawing some basic design of the sensors, cables and how it will placed in the fridge.</i>
 
-![fsr_scale_03](/images/fsr_scale_03.jpg)
+![fsr_scale_03](/images/FSR_scale_03.jpg)
 
 - <i><b>01-AUG</b>: Shopping for materials that could be used as cushioning on the FSRs.</i>
 
-![fsr_scale_04](/images/fsr_scale_04.jpg)
+![fsr_scale_04](/images/FSR_scale_04.jpg)
 
 We learned (<a href="http://www.mdpi.com/1424-8220/15/2/4550/htm" target="_blank">ref</a>) that we need something soft on top of the FSR, so we bought various materials such as foam, neoprene, and cork.
 
 - <i><b>17-AUG</b>: Using Adafruit IoT platform (<a href="https://io.adafruit.com" target="_blank">Adafruit IO</a>) and using their MQTT demo to send data from the Feather Huzzah to Adafruit IO (only publishing data from sensors), setting up pretty quick some feeds and a dashboard, connected DHT and 3 FSRs and 3 TMP36 sensors. Connected <a href="https://ifttt.com/" target="_blank">IFTTT</a> to send a notification if the DHT temperature goes over a certain temperature. </i>
 
-![fsr_scale_06](/images/fsr_scale_06.png)
+![fsr_scale_06](/images/FSR_scale_06.png)
 
 In the end we changed the TMP36 analog sensors with DS18B20 digital sensors, which are working nicely, and are much easier to use for our use case.
 
@@ -104,29 +104,29 @@ We've written <a href="/inside-kitchen-weight-scale.html" target="_blank">this b
 
 - <i><b>21-AUG</b>: Worked on a surface where the FSRs could be mounted and then fitted in the fridge. Sandwiched the FSRs and tested the measurement with different materials on top and with different milk quantities. Designed and soldered a perfboard for feather, mux, resistors, and connections to the sensors. Replaced breadboard with soldered perfboard. Feather stays on battery.</i>
 
-![fsr_scale_05](/images/fsr_scale_05.jpg)
+![fsr_scale_05](/images/FSR_scale_05.jpg)
 
 We can fit 1 jug of water and 2 milk cartons in the fridge door, so we marked the location where these will be as guidance for where to place the FSRs.
 
-![fsr_scale_05b](/images/fsr_scale_05b.jpg)
+![fsr_scale_05b](/images/FSR_scale_05b.jpg)
 
-![fsr_scale_worker1](/images/fsr_scale_worker1.jpg)
+![fsr_scale_worker1](/images/FSR_scale_worker1.jpg)
 
-![fsr_scale_worker2](/images/fsr_scale_worker2.jpg)
+![fsr_scale_worker2](/images/FSR_scale_worker2.jpg)
 
 We fitted the perfboard into the smallest case we could find at our local electronics shop.
 
-![fsr_scale_09](/images/fsr_scale_09.jpg)
+![fsr_scale_09](/images/FSR_scale_09.jpg)
 
 <h3>The result</h3>
 
 Here's the result, with the 3 FSR sensors tightened in the green layer set on the bottom shelf of the fridge door, and connected to the Feather Huzzah that is sitting on the shelf above, powered by a battery. (There is room for improvement in terms of cable management.)
 
-![fsr_scale_10](/images/fsr_scale_10.jpg)
+![fsr_scale_10](/images/FSR_scale_10.jpg)
 
 The Huzzah did not last long on the battery though. We don't have exact figures, but with publishing data each 6-10 seconds to Adafruit IO it did not last longer than 24 hours. We ended up replacing the battery with a cable that goes out of the fridge into an electricity plug.
 
-![fsr_scale_11](/images/fsr_scale_11.jpg)
+![fsr_scale_11](/images/FSR_scale_11.jpg)
 
 <h3>Lessons learned</h3>
 
