@@ -138,4 +138,9 @@ The FSRs are useful for projects where we need to detect presence and are not in
 
 However, we want to get more precise measurements, so next step would be to try building the milk scale with a load cell instead.
 
+<i>\[UPDATE 30-OCT-2016\]: Added YouTube video with a demo of the smart scale prototype:</i>
+
+<iframe width="740" height="416" src="https://www.youtube.com/embed/nUxrmso1_LM" frameborder="0" allowfullscreen></iframe>
+
+
 
