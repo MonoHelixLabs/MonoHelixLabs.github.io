@@ -208,7 +208,13 @@ pre {
 .mbtablestyle {
         border-collapse: collapse;
 
-   > table, td, th {
-        border: 2px solid grey;
+   > table, td{
+        border: 1px solid grey;
+        padding: 5px;
+        }
+   th {
+        border: 1px solid grey;
+        padding: 5px;
+        background: #f1f1f1;
         }
 }
