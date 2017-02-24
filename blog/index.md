@@ -16,7 +16,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-
+        {% if post.thumbnail %}
+          <img src="{{ post.thumbnail }}" width="75px" height="75px" style="float:left; padding-right:20px;"/> 
+        {% endif%} 
         {{ post.excerpt }}
       </li>
     {% endfor %}
