@@ -5,6 +5,7 @@ date:   2017-02-23 10:48:00 +0100
 categories: smarthome iot smartmirror magicmirror
 author: paula
 permalink: /building-smart-mirror-version-1.html
+thumbnail: /images/smart_mirror_v1_thumb.png
 ---
 
 Brushing teeth in the morning just got better! A smart mirror can tell time, weather, news and more. This is our first prototype of a smart mirror, and we believe it is amongst the simplest and cheapest methods of building a smart mirror.

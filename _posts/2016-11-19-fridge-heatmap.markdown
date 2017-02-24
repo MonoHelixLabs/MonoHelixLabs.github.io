@@ -5,6 +5,7 @@ date:   2016-11-19 17:42:00 +0100
 categories: iot kitchen temperature wifi
 author: paula
 permalink: /fridge-heatmap.html
+thumbnail: /images/fridge_heatmap_thumb.png
 ---
 
 The cool temperature inside the fridge helps to keep the food fresh and slow down the creation of bacteria. However, it has been reported (<a href="http://www.food.gov.uk/northern-ireland/nutritionni/niyoungpeople/survivorform/dontgetsick/chilling" target="_blank">food.gov.uk</a>, <a href="http://www.eufic.org/article/en/food-safety-quality/farm-to-fork/artid/food-storage-refrigerator/" target="_blank">eufic.org</a>, <a href="https://www.cnet.com/news/understand-your-fridge/" target="_blank">cnet.com</a>) that the temperature is not constant inside the fridge and that there is a proper way of organizing the food based on that. Is that true? And if so, how would a heatmap (or coolmap) of a fridge look like? Let's find out!

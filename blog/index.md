@@ -9,6 +9,11 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+
+        {% if post.thumbnail %}
+          <img src="{{ post.thumbnail }}" class="post-thumbnail"/> 
+        {% endif%} 
+        </div>
         {% assign author = site.data.people[post.author] %}
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span>{% endif %}</span>
@@ -16,10 +21,12 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail }}" width="75px" height="75px" style="float:left; padding-right:20px;"/> 
-        {% endif%} 
+        
+        <div class="post-excerpt">
         {{ post.excerpt }}
+        </div>
+        <br/>
+        <hr class="style14">
       </li>
     {% endfor %}
   </ul>

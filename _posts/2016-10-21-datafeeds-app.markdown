@@ -5,6 +5,7 @@ date:   2016-10-21 22:36:00 +0100
 categories: iot app ios tvos
 author: paula
 permalink: /datafeeds-app.html
+thumbnail: /images/datafeeds_thumb.png
 ---
 
 We are happy to announce that we have just released our first app in the App Store! It's free, available both on iOS and tvOS and it's called DataFeeds. It's an app that allows you to monitor your feeds from the Adafruit IO service.

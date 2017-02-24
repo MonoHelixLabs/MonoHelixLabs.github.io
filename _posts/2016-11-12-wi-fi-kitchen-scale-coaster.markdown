@@ -5,6 +5,7 @@ date:   2016-11-12 18:34:00 +0100
 categories: iot kitchen scale weight wifi
 author: paula
 permalink: /wi-fi-kitchen-scale-coaster.html
+thumbnail: /images/wifi_scale_thumb.JPG
 ---
 
 We built a Wi-Fi connected kitchen scale that can be used for measuring how much milk you have left in your fridge or, if you use it as a coaster, measure how fast you drink your beer.

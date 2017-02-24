@@ -5,6 +5,7 @@ date:   2016-12-02 20:11:00 +0100
 categories: iot alexa siri google syntax voice smarthome
 author: paula
 permalink: /language-lessons-alexa-google-home-siri.html
+thumbnail: /images/voiceassist_thumb.jpg
 ---
 
 One of the challenges for users of the voice assistants such as Amazon Echo, Google Assistant or Apple's Siri is the "what can I say?" aspect, in that users have to remember the invocation and action phrases that work with the device. It's almost like we need to take language lessons to be able to speak to these devices - and that's exactly what we prepared for you. 
