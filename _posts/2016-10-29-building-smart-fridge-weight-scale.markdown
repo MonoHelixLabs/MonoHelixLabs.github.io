@@ -5,7 +5,7 @@ date:   2016-10-29 17:42:00 +0100
 categories: iot kitchen scale weight wifi
 author: paula
 permalink: /building-smart-fridge-weight-scale.html
-thumbnail: /images/fsr_scale_thumb.jpg
+thumbnail: /images/FSR_scale_thumb.jpg
 ---
 
 Wouldn't it be nice to know how much milk you have left in the fridge while you are out shopping? The 'smart' fridges might be on their way to the market, but they are not cheap. We started testing the feasibility of a small module that can be added in a 'dumb' fridge and this is what we have learned.

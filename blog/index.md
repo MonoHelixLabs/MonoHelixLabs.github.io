@@ -13,7 +13,6 @@ layout: default
         {% if post.thumbnail %}
           <img src="{{ post.thumbnail }}" class="post-thumbnail"/> 
         {% endif%} 
-        </div>
         {% assign author = site.data.people[post.author] %}
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span>{% endif %}</span>
