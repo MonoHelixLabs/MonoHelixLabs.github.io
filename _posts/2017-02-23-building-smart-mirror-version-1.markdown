@@ -14,7 +14,7 @@ Brushing teeth in the morning just got better! A smart mirror can tell time, wea
 
 <h3>Background</h3>
 
-A smart mirror can be loosly defined as a mirror that is able to display information or allows for some kind of interaction, for example by voice, touch or hand-gestures. Many of the home-built smart mirrors are powered either by a Raspberry Pi or an Android tablet. Common use cases are presenting time, weather forecast, latest news, traffic information, calendars, and any other information that can improve the routine of getting up in the morning and/or preparing to go out.
+A smart mirror can be loosely defined as a mirror that is able to display information or allows for some kind of interaction, for example by voice, touch or hand-gestures. Many of the home-built smart mirrors are powered either by a Raspberry Pi or an Android tablet. Common use cases are presenting time, weather forecast, latest news, traffic information, calendars, and any other information that can improve the routine of getting up in the morning and/or preparing to go out.
 
 There are many smart mirrors DIY projects shared over the internet (check this <a href="https://dk.pinterest.com/paulapetcu/smart-mirrors/" target="_blank">Pinterest board</a> cataloging some of them), and the interest in smart mirrors has clearly increased over time. Here is Google's trend analysis of the search term "smart mirror" from 2004 until now, measured in percentage of interest over time relative to the highest point of interest:
 
@@ -61,7 +61,7 @@ We used an old Asus Nexus 7 tablet as the computational power for the mirror. A 
  * Add two pieces of tape, one on each side of one of the corners of the film sheet. This will make it easier to take out the protective sheet from the actual sticky film.
  * Separate the protective sheet from the sticky film and add it on the glass.
  * Spray some shampoo mix over the film.
- * Using a squegee, remove the air bubbles starting from the middle and going towards the sides. 
+ * Using a squeegee, remove the air bubbles starting from the middle and going towards the sides. 
  * Then use a cutter to cut the extra foil on the sides of the mirror.
 
  There are many videos on how to apply the film on windows or glass, so you can just search for "How to apply window film" for inspiration.
@@ -102,7 +102,7 @@ This was a great weekend project, simple to make (both in terms of skills and co
 
 The mirror foil looks better than expected. We had some doubts whether we should even try the mirror foil, but since getting a two-sided mirror was a bit more difficult, we gave it a try. It was the first time we put a foil on the glass and we would probably do better the second time. Clearing the work area from dust and having two people operate the transfer of the foil to the glass can improve the results. 
 
-<h4>Mirror film vs. two-way miror</h4>
+<h4>Mirror film vs. two-way mirror</h4>
 
 For the next version we would however go with a two-way mirror glass (or acrylic) instead of the mirror foil, to get more clarity in the mirror. The current mirror looks reasonably good and the foil was easier and cheaper to acquire than a two-sided mirror. However, it is not bathroom mirror like quality.
 
@@ -116,9 +116,11 @@ Here are some side-by-side comparisons with a sample of a two-way acrylic on the
 
 <h4>Android vs. Raspberry Pi</h4>
 
-There was one thing we did not expect -- the battery of this tablet couldn't handle showing the dashboard app in full-brightess 24 hours a day, so after some time, we would find that the tablet powered itself off. The number of apps installed was set to a minimum and still the continuous power supply was not enough. We reduced the brightess to somewhere around 75% which resulted in having the mirror displaying the dashboard app for more than 24 hours, but it still powered itself off after a while.
+<i>\[UPDATE 04-MAR-2017\]: We initially had some issues with keeping the tablet charged at all times, so it would run out of battery when running the dashboard app at full brightness 24 hours a day. After some investigation, we identified that the power supply wasn't supplying enough current, which we tested with a current and voltage meter. Changing the charging adapter with a better one solved the issue!</i>
 
-Our tablet is more than 3 years old. If you are building the mirror yourself with an old tablet, we recommend that you do a quick test first. Install the Home Mirror app (or another app that you intend to use in the mirror), set the brightness to 100%, leave the app running in full screen mode, and test how much battery is consumed over time. 
+<p style="text-decoration: line-through;">There was one thing we did not expect -- the battery of this tablet couldn't handle showing the dashboard app in full-brightness 24 hours a day, so after some time, we would find that the tablet powered itself off. The number of apps installed was set to a minimum and still the continuous power supply was not enough. We reduced the brightness to somewhere around 75% which resulted in having the mirror displaying the dashboard app for more than 24 hours, but it still powered itself off after a while.</p>
+
+<p style="text-decoration: line-through;">Our tablet is more than 3 years old. If you are building the mirror yourself with an old tablet, we recommend that you do a quick test first. Install the Home Mirror app (or another app that you intend to use in the mirror), set the brightness to 100%, leave the app running in full screen mode, and test how much battery is consumed over time. </p>
 
 As for us, we will probably replace the tablet with a Raspberry Pi in the next version of our smart mirror.
 
