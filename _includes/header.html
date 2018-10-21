@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/blog">{{ site.title }} Blog</a>
+    <a class="site-title" href="{{ site.baseurl }}">{{ site.title }} Blog</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -19,7 +19,6 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
-          <a class="page-link" href="{{ site.baseurl }}/">Main Website</a>
       </div>
     </nav>
 
